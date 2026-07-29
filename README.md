@@ -70,10 +70,9 @@ cyber-security-study/
 
 - [x] Week 01 구조 생성
 - [x] Day 01 학습 내용 정리
-- [ ] Day 02 학습 및 기록
+- [x] Day 02 학습 및 기록
 - [ ] Day 03 학습 및 기록
 - [ ] Day 04 학습 및 기록
 - [ ] Day 05 학습 및 기록
 - [ ] Day 06 Bandit Level 0~5
 - [ ] Day 07 종합 복습
-

@@ -9,16 +9,16 @@ LLM API, RAG 서버, 데이터베이스, AI Agent의 Tool 호출도 모두 네�
 
 ## 오늘의 학습 목표
 
-- [ ] 네트워크가 무엇인지 설명할 수 있다.
-- [ ] Client와 Server의 역할을 구분할 수 있다.
-- [ ] IPv4 주소의 형태와 역할을 설명할 수 있다.
-- [ ] Private IP, Public IP, Loopback 주소를 구분할 수 있다.
-- [ ] IP 주소와 MAC 주소의 차이를 설명할 수 있다.
-- [ ] Port가 필요한 이유와 `IP:Port`의 의미를 설명할 수 있다.
-- [ ] Router, Default Gateway, NAT의 역할을 설명할 수 있다.
-- [ ] `ip addr`, `ip route`, `ping`, `ss`를 사용할 수 있다.
-- [ ] 명령어 결과에서 내 IP, Gateway, Listening Port를 찾을 수 있다.
-- [ ] 서비스가 어느 네트워크 주소에 노출되어 있는지 기본적으로 판단할 수 있다.
+- [o] 네트워크가 무엇인지 설명할 수 있다.
+- [o] Client와 Server의 역할을 구분할 수 있다.
+- [o] IPv4 주소의 형태와 역할을 설명할 수 있다.
+- [o] Private IP, Public IP, Loopback 주소를 구분할 수 있다.
+- [o] IP 주소와 MAC 주소의 차이를 설명할 수 있다.
+- [o] Port가 필요한 이유와 `IP:Port`의 의미를 설명할 수 있다.
+- [o] Router, Default Gateway, NAT의 역할을 설명할 수 있다.
+- [o] `ip addr`, `ip route`, `ping`, `ss`를 사용할 수 있다.
+- [o] 명령어 결과에서 내 IP, Gateway, Listening Port를 찾을 수 있다.
+- [o] 서비스가 어느 네트워크 주소에 노출되어 있는지 기본적으로 판단할 수 있다.
 
 ---
 
@@ -1033,26 +1033,15 @@ ss -tuln
 실습 후 직접 작성합니다. 실제 Public IP, Hostname, VPN 주소처럼 공개가 불필요한 정보는 마스킹합니다.
 
 ```text
-오늘 새롭게 알게 된 개념:
+오늘 새롭게 알게 된 개념: ss 명령어와 ip route 명령어를 새롭게 알게 되었음
 
-IP 주소와 Port의 차이를 내 말로 설명:
+IP 주소와 Port의 차이를 내 말로 설명: IP 주소는 컴퓨터 같은 장치의 고유한 주소이고, port는 장치와 장치를 연결할 때 쓰는 통로
 
-내 환경에서 확인한 Network Interface:
+Default Gateway가 하는 일: 내부의 네트워크에서 외부로 나가게 할 수 있게 해준다
 
-Default Gateway가 하는 일:
+127.0.0.1과 0.0.0.0의 차이: 127.0.0.1은 내 localhost의 주소이고 내부에서 접속 가능하지만, 0.0.0.0은 모든 IPv4 인터페이스에서 접속 가능하다.
 
-127.0.0.1과 0.0.0.0의 차이:
+ss 명령어로 확인한 내용: listening 중인 port를 확인 함
 
-ss 명령어로 확인한 내용:
-
-AI 보안과 연결되는 부분:
-
-실행 중 발생한 오류:
-
-오류를 해결한 방법:
-
-아직 이해가 부족한 부분:
-
-다음 학습에서 확인하고 싶은 질문:
 ```
 

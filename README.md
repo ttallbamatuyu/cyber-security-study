@@ -43,26 +43,56 @@
 
 자세한 주간 계획은 [Week 01 안내](week01-linux/README.md)에서 확인할 수 있습니다.
 
+## Week 02 — 네트워크 기초와 HTTP/HTTPS
+
+### 학습 목표
+
+- 네트워크, 클라이언트, 서버의 관계를 설명할 수 있다.
+- IP 주소와 Port가 각각 무엇을 식별하는지 설명할 수 있다.
+- Private IP, Public IP, Loopback 주소를 구분할 수 있다.
+- Router와 Default Gateway의 역할을 설명할 수 있다.
+- TCP와 UDP, DNS, HTTP와 HTTPS의 핵심 차이를 이해한다.
+- Ubuntu에서 기본 네트워크 상태와 Listening Port를 확인할 수 있다.
+- 브라우저가 웹 서버에 접속할 때의 흐름을 설명할 수 있다.
+
+### 일차별 구성
+
+| Day | 주제 | 핵심 내용 |
+| --- | --- | --- |
+| [Day 01](week02-network/day01-network-basics/README.md) | 네트워크 기초 | Network, Client/Server, IP, Port, Router, Gateway, `ip`, `ping`, `ss` |
+| Day 02 | TCP와 UDP | 연결 방식, 신뢰성, 3-Way Handshake, `ss`, `nc` |
+| Day 03 | DNS | 도메인 이름 해석, `dig`, `nslookup` |
+| Day 04 | HTTP | Request/Response, Method, Header, Status Code, `curl` |
+| Day 05 | HTTPS와 TLS | 암호화, 인증서, TLS Handshake, `openssl` |
+| Day 06 | 패킷 분석 | Wireshark로 DNS, TCP, HTTP 패킷 관찰 |
+| Day 07 | 종합 복습 | DNS → TCP → TLS → HTTP 연결 흐름 정리 |
+
+자세한 주간 계획은 [Week 02 안내](week02-network/README.md)에서 확인할 수 있습니다.
+
 ## 저장소 구조
 
 ```text
 cyber-security-study/
 ├── README.md
-└── week01-linux/
+├── week01-linux/
+│   ├── README.md
+│   ├── day01-terminal-basics/
+│   │   └── README.md
+│   ├── day02-path-directory/
+│   │   └── README.md
+│   ├── day03-file-management/
+│   │   └── README.md
+│   ├── day04-file-content-redirection/
+│   │   └── README.md
+│   ├── day05-help-ssh/
+│   │   └── README.md
+│   ├── day06-bandit-00-05/
+│   │   └── README.md
+│   └── day07-review/
+│       └── README.md
+└── week02-network/
     ├── README.md
-    ├── day01-terminal-basics/
-    │   └── README.md
-    ├── day02-path-directory/
-    │   └── README.md
-    ├── day03-file-management/
-    │   └── README.md
-    ├── day04-file-content-redirection/
-    │   └── README.md
-    ├── day05-help-ssh/
-    │   └── README.md
-    ├── day06-bandit-00-05/
-    │   └── README.md
-    └── day07-review/
+    └── day01-network-basics/
         └── README.md
 ```
 
@@ -76,3 +106,7 @@ cyber-security-study/
 - [ ] Day 05 학습 및 기록
 - [ ] Day 06 Bandit Level 0~5
 - [ ] Day 07 종합 복습
+- [x] Week 02 구조 생성
+- [x] Week 02 Day 01 네트워크 기초 정리
+- [ ] Week 02 Day 02~07 학습 및 기록
+

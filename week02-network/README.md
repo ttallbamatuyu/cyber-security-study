@@ -9,7 +9,7 @@
 | Day | 주제 | 완료 기준 |
 | --- | --- | --- |
 | [Day 01](day01-network-basics/README.md) | 네트워크 기초 | IP와 Port, Router와 Gateway를 설명하고 `ip`, `ping`, `ss` 결과를 읽을 수 있다. |
-| Day 02 | TCP와 UDP | 두 프로토콜의 차이와 TCP 3-Way Handshake를 설명할 수 있다. |
+| [Day 02](day02-tcp-udp/README.md) | TCP와 UDP | 두 프로토콜의 차이와 TCP 3-Way Handshake를 설명할 수 있다. |
 | Day 03 | DNS | 도메인이 IP 주소로 변환되는 과정을 설명하고 `dig`, `nslookup`을 사용할 수 있다. |
 | Day 04 | HTTP | HTTP Request/Response, Method, Header, Status Code를 읽고 `curl`로 요청할 수 있다. |
 | Day 05 | HTTPS와 TLS | HTTP와 HTTPS의 차이, 인증서와 TLS의 역할을 설명할 수 있다. |

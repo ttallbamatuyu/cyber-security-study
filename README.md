@@ -63,7 +63,7 @@ ChatGPT 5.6 sol을 통해 학습하고 기록하였고 학습 기록 밑에 제�
 | --- | --- | --- |
 | [Day 01](week02-network/day01-network-basics/README.md) | 네트워크 기초 | Network, Client/Server, IP, Port, Router, Gateway, `ip`, `ping`, `ss` |
 | [Day 02](week02-network/day02-tcp-udp/README.md) | TCP와 UDP | 연결 방식, 신뢰성, 3-Way Handshake, `ss`, `nc` |
-| Day 03 | DNS | 도메인 이름 해석, `dig`, `nslookup` |
+| [Day 03](week02-network/day03-dns/README.md) | DNS | 도메인 이름 해석, `dig`, `nslookup` |
 | Day 04 | HTTP | Request/Response, Method, Header, Status Code, `curl` |
 | Day 05 | HTTPS와 TLS | 암호화, 인증서, TLS Handshake, `openssl` |
 | Day 06 | 패킷 분석 | Wireshark로 DNS, TCP, HTTP 패킷 관찰 |
@@ -96,7 +96,9 @@ cyber-security-study/
     ├── README.md
     ├── day01-network-basics/
     │   └── README.md
-    └── day02-tcp-udp/
+    ├── day02-tcp-udp/
+    │   └── README.md
+    └── day03-dns/
         └── README.md
 ```
 
@@ -113,5 +115,7 @@ cyber-security-study/
 - [x] Week 02 구조 생성
 - [x] Week 02 Day 01 네트워크 기초 정리
 - [x] Week 02 Day 02 TCP와 UDP 정리
-- [ ] Week 02 Day 03~07 학습 및 기록
+- [x] Week 02 Day 03 DNS 정리
+- [ ] Week 02 Day 04~07 학습 및 기록
+
 

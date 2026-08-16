@@ -10,7 +10,7 @@
 | --- | --- | --- |
 | [Day 01](day01-network-basics/README.md) | 네트워크 기초 | IP와 Port, Router와 Gateway를 설명하고 `ip`, `ping`, `ss` 결과를 읽을 수 있다. |
 | [Day 02](day02-tcp-udp/README.md) | TCP와 UDP | 두 프로토콜의 차이와 TCP 3-Way Handshake를 설명할 수 있다. |
-| Day 03 | DNS | 도메인이 IP 주소로 변환되는 과정을 설명하고 `dig`, `nslookup`을 사용할 수 있다. |
+| [Day 03](day03-dns/README.md) | DNS | 도메인이 IP 주소로 변환되는 과정을 설명하고 `dig`, `nslookup`을 사용할 수 있다. |
 | Day 04 | HTTP | HTTP Request/Response, Method, Header, Status Code를 읽고 `curl`로 요청할 수 있다. |
 | Day 05 | HTTPS와 TLS | HTTP와 HTTPS의 차이, 인증서와 TLS의 역할을 설명할 수 있다. |
 | Day 06 | 패킷 분석 | Wireshark로 DNS, TCP, HTTP 패킷을 찾아 기본 필드를 확인할 수 있다. |
@@ -40,4 +40,5 @@ LLM 애플리케이션, RAG 서버, AI Agent의 Tool 호출도 대부분 네트�
 - 예제 IP와 실제 환경의 IP를 구분해 기록한다.
 - 패킷 캡처와 포트 확인은 본인 장비 또는 명시적으로 허가받은 학습 환경에서만 수행한다.
 - 실습 완료 후 각 Day 문서의 체크리스트와 학습 기록을 갱신한다.
+
 
